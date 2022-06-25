@@ -1,0 +1,1 @@
+AndroidTest测试通用工具包，支持AndroidJunit和TestNG等测试框架
