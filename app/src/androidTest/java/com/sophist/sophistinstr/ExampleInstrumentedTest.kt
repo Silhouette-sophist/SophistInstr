@@ -3,10 +3,8 @@ package com.sophist.sophistinstr
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.sophist.instr.uiautomation.impl.AutomationImpl
-
 import org.junit.Test
 import org.junit.runner.RunWith
-
 import org.junit.Assert.*
 
 /**
@@ -25,5 +23,7 @@ class ExampleInstrumentedTest {
 
         val abstractAutomation = AutomationImpl()
         val takeScreenshot = abstractAutomation.takeScreenshot()
+
+        println("takeScreenshot $takeScreenshot")
     }
 }
