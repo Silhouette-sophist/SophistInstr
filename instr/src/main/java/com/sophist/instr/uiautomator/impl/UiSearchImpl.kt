@@ -5,6 +5,9 @@ import androidx.test.uiautomator.UiObject2
 import com.sophist.instr.uiautomator.AutomationManager
 import com.sophist.instr.uiautomator.api.AbstractUiSearch
 
+/**
+ * Ui查找实现类
+ */
 class UiSearchImpl : AbstractUiSearch {
 
     override fun findView(selector: BySelector, timeout: Int): UiObject2? {

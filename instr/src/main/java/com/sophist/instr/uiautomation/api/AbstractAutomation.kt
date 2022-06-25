@@ -8,7 +8,9 @@ import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import android.view.accessibility.AccessibilityWindowInfo
 
-
+/**
+ * 基于UiAutomation封装的接口，按照功能进行拆分
+ */
 interface AbstractAutomation {
 
     //1.设置Accessibility事件监听

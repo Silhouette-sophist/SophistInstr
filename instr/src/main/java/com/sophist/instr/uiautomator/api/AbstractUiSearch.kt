@@ -4,6 +4,9 @@ import androidx.test.uiautomator.By
 import androidx.test.uiautomator.BySelector
 import androidx.test.uiautomator.UiObject2
 
+/**
+ * UI控件查找相关
+ */
 interface AbstractUiSearch {
 
     companion object {

@@ -4,6 +4,9 @@ import androidx.test.uiautomator.BySelector
 import com.sophist.instr.uiautomator.api.AbstractUiOperate
 import com.sophist.instr.uiautomator.api.AbstractUiSearch
 
+/**
+ * Ui操作实现类
+ */
 class UiOperateImpl : AbstractUiOperate {
 
     // Ui操作依赖于Ui查找

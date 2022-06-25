@@ -21,6 +21,9 @@ class CommonInstr : Instrumentation() {
     }
 
 
+    /**
+     * 注意，这里一般会触发测试框架逻辑比如AndroidJUnit和TestNG等
+     */
     override fun onStart() {
         super.onStart()
     }

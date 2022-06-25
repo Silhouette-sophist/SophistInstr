@@ -3,6 +3,9 @@ package com.sophist.instr.uiautomator.api
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.BySelector
 
+/**
+ * UI操作相关
+ */
 interface AbstractUiOperate {
 
     /**
